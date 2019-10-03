@@ -66,122 +66,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
-	width:900px;
-	margin: auto;
+.container{
+	    width: 90p0x;
+	    margin: auto;
+	    position: relative;
+	}
+	    .container nav {
+	        display: inline-block;
+	    }
+	nav a {
+	    text-decoration: none;
+	    color: grey;
+	    padding: 0px 20px;
+	}
 	
-	
-}
-header {
-	margin-top:15px;
-	margin-left:35px;
-	margin-bottom:-180px;
-	
-}
-
-nav {
+	 .logo {
+	    margin-left:50px;
+	    display:inline-block;
+	}
+	.topsec {
 	display:inline-block;
-	position: relative;
-	width:100%;
-	margin-top:40px;
-	
-}
-nav a {
-	padding:0px 20px;
-	color:lightgrey;
-	text-decoration:none;
-	
-}
-
-
-.first {
-	display:inline-block;
-	position: relative;
-	left:500px;
-	bottom:150px;
-	
-	
-	
-}
-
-.logo {
-	position: relative;
-	left:640px;
-	top:-25px;
-	
-	
-}
-
-.left h1 {
-	font-size:85px;
-	text-align:center;
-	
-
-	
-}
-
-.left {
-	width:40%;
-	margin:80px;
-	display:inline-block;
-	text-align:center;
-	background-color:white;
-	position: relative;
-	top:250px;
-	
-
-}
-
-.startButton {
-	padding:5px 25px 5px 25px;
-	background:white;
-	border:1px solid black;
-	
-}
-
-.FA {
-	display:inline-block;
-	width:47%;
-	margin-bottom:30px;
-	margin-top:-150px;
-	height:auto;
-}
-
-.SPV{
-	display:inline-block;
-	width: 32%;
-	padding-right:10px;
-	margin-top:30px;
-	margin-bottom: 30px;
-	
-}
-
-.features {
-	position: relative;
-	right:0px;
-	top:6px;	
-}
-
-.about {
-	position: relative;
-	left:30px;
-	
-	
-}
-
-.borderLine {
 	border-bottom: 1px solid black;
-	margin-top: 5px;
-	margin-bottom: 25px;
-}
-
-.firstBorderLine {
-	border-bottom:1px solid black;
-	margin-bottom: 150px;
-}
-
-.copyright {
-	margin:50px 0px;
-	text-align:center;
-}
-
+	
+	}
+	.CircleCode {
+	vertical-align: baseline;
+	padding-top: 45px;
+	padding-right: 10x;
+	    
+	}
+	.left {
+	    display: inline-block;
+	    margin-right: 80px;
+	    margin-bottom: 70px;
+	    margin-left: 60px;
+	}
+	
+	h1 {
+	    font-size: 80px;
+	    text-align: center;
+	    padding-left: 40px;
+	}
+	
+	h2 {
+	    margin-left: 200px;
+	    padding: 20px 50px;
+	    margin-right: 150px;
+	    color: black;
+	    border: 1px solid grey;
+	}
+	h3 {
+	    color: black;
+	    box-sizing: border-box;
+	}
+	
+	.features {
+	    text-align: left;
+	    padding: 10px 20px;
+	    margin-top: 30px;
+	    display:inline-block;
+	    width: 49%;
+	}
+	
+	.about {    
+	    text-align: left;
+	    padding: 10px 20px;
+	    margin-top: 30px;
+	    display:inline-block;
+	    width: 49%;
+	
+	}
+	
+	.middle-img {
+	padding: 10px;
+	margin-top: 45px;
+	margin-bottom:80px;
+	display:inline-block;
+	}
+	
+	.product {
+	    text-align: left;
+	    padding: 10px 20px;
+	
+	    display:inline-block;
+	    width: 33%;
+	}
+	.vision {
+	    padding: 10px 20px;
+	    text-align: left;
+	    margin-top: 30px;
+	    display:inline-block;
+	    width: 33%;
+	}
+	.services {
+	    text-align: left;
+	    padding: 10px 20px;
+	    margin-top: 30px;
+	    display:inline-block;
+	    width: 33%;
+	}
+	
+	.contact {
+	    display:inline-block;
+	    font-size: 12px;
+	    margin-top: 40px;
+	    display:inline-block;
+	
+	    align-content: center;
+	}
+	.copyright {
+	    font-size: 10px;
+	    text-align: center;
+	    margin-bottom: 50px;
+	    border-top: 50px;
+	}
